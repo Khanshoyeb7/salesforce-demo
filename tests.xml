@@ -1,0 +1,650 @@
+<testsuites>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls" tests="4" errors="4">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls
+Line: 3
+Column: 26
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls: 13 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls
+Line: 13
+Column: 13
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls: 26 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilities.cls
+Line: 26
+Column: 13
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls" tests="7" errors="7">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 21 &#39;Assert.isNotNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNotNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 21
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 33 Variable &#39;contentDocumentLinkId&#39; defined but not used" type="5">
+5: Variable &#39;contentDocumentLinkId&#39; defined but not used
+Category: Best Practices - UnusedLocalVariable
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 33
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#unusedlocalvariable
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 41 &#39;Assert.isInstanceOfType&#39; should have 3 parameters." type="3">
+3: &#39;Assert.isInstanceOfType&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 41
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 57 Variable &#39;contentDocumentLinkId&#39; defined but not used" type="5">
+5: Variable &#39;contentDocumentLinkId&#39; defined but not used
+Category: Best Practices - UnusedLocalVariable
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 57
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#unusedlocalvariable
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 65 &#39;Assert.isInstanceOfType&#39; should have 3 parameters." type="3">
+3: &#39;Assert.isInstanceOfType&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 65
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 81 Variable &#39;contentDocumentLinkId&#39; defined but not used" type="5">
+5: Variable &#39;contentDocumentLinkId&#39; defined but not used
+Category: Best Practices - UnusedLocalVariable
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 81
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#unusedlocalvariable
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls: 89 &#39;Assert.isInstanceOfType&#39; should have 3 parameters." type="3">
+3: &#39;Assert.isInstanceOfType&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/FileUtilitiesTest.cls
+Line: 89
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls" tests="6" errors="6">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 1 The class &#39;GeocodingService&#39; has a Standard Cyclomatic Complexity of 10 (Highest = 9)." type="3">
+3: The class &#39;GeocodingService&#39; has a Standard Cyclomatic Complexity of 10 (Highest = 9).
+Category: Design - StdCyclomaticComplexity
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_design.html#stdcyclomaticcomplexity
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 5
+Column: 37
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 5 The method &#39;geocodeAddresses(List&lt;GeocodingService.GeocodingAddress&gt;)&#39; has a cognitive complexity of 16, current threshold is 15" type="3">
+3: The method &#39;geocodeAddresses(List&lt;GeocodingService.GeocodingAddress&gt;)&#39; has a cognitive complexity of 16, current threshold is 15
+Category: Design - CognitiveComplexity
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 5
+Column: 37
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_design.html#cognitivecomplexity
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 53 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 53
+Column: 18
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls: 66 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingService.cls
+Line: 66
+Column: 18
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls" tests="13" errors="13">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 32 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 32
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 33 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 33
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 34 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 34
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 52 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 52
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 53 &#39;Assert.isNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 53
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 54 &#39;Assert.isNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 54
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 77 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 77
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 78 &#39;Assert.isNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 78
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 79 &#39;Assert.isNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 79
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 82 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 82
+Column: 18
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 83 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 83
+Column: 29
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 92 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 92
+Column: 18
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls: 93 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/GeocodingServiceTest.cls
+Line: 93
+Column: 29
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls" tests="5" errors="5">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls
+Line: 3
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls: 6 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls
+Line: 6
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls: 9 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls
+Line: 9
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls: 12 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PagedResult.cls
+Line: 12
+Column: 21
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls" tests="4" errors="4">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls: 16 Avoid long parameter lists." type="3">
+3: Avoid long parameter lists.
+Category: Design - ExcessiveParameterList
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls
+Line: 16
+Column: 31
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_design.html#excessiveparameterlist
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls: 16 Missing ApexDoc @description" type="3">
+3: Missing ApexDoc @description
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls
+Line: 16
+Column: 31
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls: 87 Missing ApexDoc @description" type="3">
+3: Missing ApexDoc @description
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/PropertyController.cls
+Line: 87
+Column: 40
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls" tests="8" errors="8">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 3
+Column: 24
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 15 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 15
+Column: 42
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 25 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 25
+Column: 9
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 29 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 29
+Column: 45
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 40 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 40
+Column: 9
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 44 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 44
+Column: 43
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls: 54 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/SampleDataController.cls
+Line: 54
+Column: 9
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls" tests="5" errors="5">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls
+Line: 5
+Column: 24
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls: 70 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls
+Line: 70
+Column: 20
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls: 85 &#39;Assert.isNull&#39; should have 2 parameters." type="3">
+3: &#39;Assert.isNull&#39; should have 2 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls
+Line: 85
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls: 118 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls
+Line: 118
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls: 119 &#39;Assert.areEqual&#39; should have 3 parameters." type="3">
+3: &#39;Assert.areEqual&#39; should have 3 parameters.
+Category: Best Practices - ApexAssertionsShouldIncludeMessage
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/classes/TestPropertyController.cls
+Line: 119
+Column: 16
+URL: https://pmd.github.io/pmd-6.55.0/pmd_rules_apex_bestpractices.html#apexassertionsshouldincludemessage
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js" tests="2" errors="2">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js: 21 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js
+Line: 21
+Column: 34
+URL: https://eslint.org/docs/latest/rules/no-undef
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js: 31 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapHelper.js
+Line: 31
+Column: 9
+URL: https://eslint.org/docs/latest/rules/no-undef
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapRenderer.js" tests="1" errors="1">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapRenderer.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapRenderer.js: 55 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/aura/auraPropertyListMap/auraPropertyListMapRenderer.js
+Line: 55
+Column: 28
+URL: https://eslint.org/docs/latest/rules/no-undef
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyFilter/propertyFilter.js" tests="1" errors="1">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyFilter/propertyFilter.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyFilter/propertyFilter.js: 50 Definition for rule &#39;@lwc/lwc/no-async-operation&#39; was not found." type="2">
+2: Definition for rule &#39;@lwc/lwc/no-async-operation&#39; was not found.
+Category: problem - @lwc/lwc/no-async-operation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyFilter/propertyFilter.js
+Line: 50
+Column: 9
+URL: 
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js" tests="3" errors="3">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js: 126 Definition for rule &#39;jest/expect-expect&#39; was not found." type="2">
+2: Definition for rule &#39;jest/expect-expect&#39; was not found.
+Category: problem - jest/expect-expect
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js
+Line: 126
+Column: 13
+URL: 
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js: 145 Definition for rule &#39;jest/expect-expect&#39; was not found." type="2">
+2: Definition for rule &#39;jest/expect-expect&#39; was not found.
+Category: problem - jest/expect-expect
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js
+Line: 145
+Column: 13
+URL: 
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js: 165 Definition for rule &#39;jest/expect-expect&#39; was not found." type="2">
+2: Definition for rule &#39;jest/expect-expect&#39; was not found.
+Category: problem - jest/expect-expect
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/daysOnMarket/__tests__/daysOnMarket.test.js
+Line: 165
+Column: 13
+URL: 
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyCarousel/__tests__/propertyCarousel.test.js" tests="1" errors="1">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyCarousel/__tests__/propertyCarousel.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyCarousel/__tests__/propertyCarousel.test.js: 165 Definition for rule &#39;@lwc/lwc/no-async-operation&#39; was not found." type="2">
+2: Definition for rule &#39;@lwc/lwc/no-async-operation&#39; was not found.
+Category: problem - @lwc/lwc/no-async-operation
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyCarousel/__tests__/propertyCarousel.test.js
+Line: 165
+Column: 13
+URL: 
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js" tests="2" errors="2">
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js: 77 Definition for rule &#39;jest/expect-expect&#39; was not found." type="2">
+2: Definition for rule &#39;jest/expect-expect&#39; was not found.
+Category: problem - jest/expect-expect
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js
+Line: 77
+Column: 5
+URL: 
+</failure>
+</testcase>
+<testcase name="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js">
+<failure message="/var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js: 97 Definition for rule &#39;jest/expect-expect&#39; was not found." type="2">
+2: Definition for rule &#39;jest/expect-expect&#39; was not found.
+Category: problem - jest/expect-expect
+File: /var/lib/jenkins/workspace/salesforce-demo/force-app/main/default/lwc/propertyLocation/__tests__/propertyLocation.test.js
+Line: 97
+Column: 5
+URL: 
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
