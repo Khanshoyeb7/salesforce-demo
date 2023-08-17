@@ -1,0 +1,11 @@
+{
+  "serverMaxRevisionCounter": 1,
+  "sourceMembers": {
+    "StandardValueSet__LeadSource": {
+      "serverRevisionCounter": 1,
+      "lastRetrievedFromServer": 1,
+      "memberType": "StandardValueSet",
+      "isNameObsolete": false
+    }
+  }
+}
